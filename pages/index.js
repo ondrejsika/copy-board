@@ -2,27 +2,13 @@ import React from "react";
 import Head from "next/head";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-let emojis = [
-  "👋",
-  "🦄",
-  "⚠️",
-  "💩",
-  "😥",
-  "👍",
-  "🙏",
-  "🇺🇦",
-  "❤️",
-  "👏",
-  "🤦",
-  "🎉",
-  "😘",
-];
+let texts = ["2500171198 / 2010"];
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>copy-emoji - em.oxs.cz</title>
+        <title>copy-board - copy.oxs.cz</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           rel="apple-touch-icon"
@@ -43,11 +29,16 @@ export default function Home() {
         />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      {emojis.map((el, i) => {
+      {texts.map((el, i) => {
         return (
-          <CopyToClipboard text={el} key={i}>
-            <button style={{ margin: "10px", fontSize: "1.9em" }}>{el}</button>
-          </CopyToClipboard>
+          <>
+            <CopyToClipboard text={el} key={i}>
+              <button style={{ margin: "10px", fontSize: "1.2em" }}>
+                {el}
+              </button>
+            </CopyToClipboard>
+            <br />
+          </>
         );
       })}
     </>
