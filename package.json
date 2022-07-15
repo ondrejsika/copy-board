@@ -1,5 +1,5 @@
 {
-  "name": "copy-emoji",
+  "name": "copy-board",
   "scripts": {
     "prettier-check": "prettier -l .",
     "prettier-write": "prettier --write .",

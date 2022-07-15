@@ -1,1 +1,1 @@
-# ondrejsika/copy-emoji
+# ondrejsika/copy-board (copy.oxs.cz)
