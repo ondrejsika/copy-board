@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-let texts = ["2500171198 / 2010"];
+let texts = ["@dependabot rebase", "2500171198 / 2010"];
 
 export default function Home() {
   return (
