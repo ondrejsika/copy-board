@@ -2,7 +2,11 @@ import React from "react";
 import Head from "next/head";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-let texts = ["@dependabot rebase", "2500171198 / 2010"];
+let texts = [
+  "@dependabot rebase",
+  "2500171198 / 2010",
+  "Zmenil jsem email pro pracovani aktivity (skoleni, konzultace, ...), prosim pouzivejte ondrej@sika.io (misto ondrej@ondrejsika.com). Diky.",
+];
 
 export default function Home() {
   return (
