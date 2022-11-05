@@ -3,6 +3,8 @@ import Head from "next/head";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 let texts = [
+  "#ondrej_and_iceland #iceland #island #🇮🇸 @iceland",
+  "🇮🇸🇮🇸",
   "@dependabot rebase",
   "2500171198 / 2010",
   "Zmenil jsem email pro pracovani aktivity (skoleni, konzultace, ...), prosim pouzivejte ondrej@sika.io (misto ondrej@ondrejsika.com). Diky.",
