@@ -7,6 +7,7 @@ let texts = [
   "🇮🇸🇮🇸",
   "@dependabot rebase",
   "2500171198 / 2010",
+  "+420 773 452 376",
   "Zmenil jsem email pro pracovani aktivity (skoleni, konzultace, ...), prosim pouzivejte ondrej@sika.io (misto ondrej@ondrejsika.com). Diky.",
 ];
 
